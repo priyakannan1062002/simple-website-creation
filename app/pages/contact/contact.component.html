@@ -1,0 +1,33 @@
+<form class="contact" name="contactfrom">
+    <div class="clsaa">
+        <label>Name: </label>
+        <input type="text" placeholder="Enter your Name">
+    </div>
+    <br>
+    <div class="clsaa">
+        <label>phone Number: </label>
+        <input type="number" placeholder="Enter Valid 10 Number">
+    </div>
+    <br>
+    <div class="clsaa">
+        <label>Address: </label>
+        <input type="text" placeholder="Enter Valid Address">
+    </div>
+    <br>
+    <div class="clsaa">
+        <label>Pincode: </label>
+        <input type="number"   Placeholder="Enter 6 Digit Number">
+    </div>
+    <br>
+    <div class="button">
+        <h6>Fill the details and click order </h6>
+        <button type="submit" class="btn btn-success" click="clickorder()">Order</button>
+        <button type="submit" class="btn btn-danger" click="btnClickedcancel()">Cancel</button>
+       <p *ngIF="order">The order wil be registered</p>
+        
+    </div>
+</form>
+
+
+
+

@@ -1,0 +1,28 @@
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: yellowgreen;
+    background-color: skyblue;
+    text-align: center;
+}
+.order-image{
+    width: 200px;
+    height: 50px;
+}
+h5{
+    color:seagreen;
+}
+.fooo h5{
+font-weight: bold;
+color: black;
+}
+.buyy{
+    color: black;
+    background-color: var(--primary-color);
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 70px;
+    height: 45px;
+    cursor: pointer;
+}
